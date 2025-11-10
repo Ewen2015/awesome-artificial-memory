@@ -44,14 +44,18 @@ Resources detailing the biological and psychological mechanisms of memory consol
     *   *Focus:* A classic paper by Daniel Schacter that frames memory failures (including forgetting) as byproducts of otherwise adaptive features of memory.
 
 
-## 🛠️ Tools and Frameworks (Memory Infrastructure)
+## 🛠️ Tools and Frameworks
 
 Tools that provide fine-grained control over memory, which is essential for implementing selective forgetting.
 
-*   **[Project]** [mem0ai/mem0 - GitHub](https://github.com/mem0ai/mem0)
-    *   *Focus:* Universal memory layer for LLM applications. Focuses on memory compression and context optimization, which is a form of functional forgetting.
-*   **[Project]** [getzep/zep - GitHub](https://github.com/getzep/zep)
-    *   *Focus:* Context Engineering Platform for AI Agents. Provides structured memory (Facts, Entities) and fine-grained API control, enabling selective deletion based on metadata.
+| Tool / Project | Type | Short notes |
+|---|---|---|
+| [mem0 (mem0ai/mem0)](https://github.com/mem0ai/mem0) | Memory layer / SDK | Self-improving memory layer, hosted + open-source, focuses on memory compression and structured fact extraction. |
+| [Zep (getzep/zep)](https://github.com/getzep/zep) | Memory platform | Context engineering platform with structured memory (facts, entities) and metadata control. |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | Memory OS / architecture | Layered memory architecture (STM/MTM/LPM), heat-score promotion, local-first privacy-focused design (compare/see article). |
+| [Letta (MemGPT)](https://github.com/letta-ai/letta) | Virtual context / persona | Virtual context management and multi-agent memory patterns (referred to as Letta / MemGPT in the article). |
+| [LangChain Memory](https://github.com/langchain-ai/langchain) | Library / integration | Popular memory components for LangChain; useful when building LLM apps within the LangChain ecosystem. |
+
 
 ## 🤝 Contributing
 
