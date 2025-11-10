@@ -10,9 +10,6 @@ Traditional Artificial Intelligence (AI) focuses on maximizing information reten
 
 ##  Table of Contents
 *   [🧠 Neuroscience of Memory and Forgetting](#-neuroscience-of-memory-and-forgetting)
-    *   [Forgetting as an Active Process](#forgetting-as-an-active-process)
-    *   [Computational Neuroscience Models](#computational-neuroscience-models)
-    *   [Memory Consolidation and Trace](#memory-consolidation-and-trace)
 *   [🛠️ Tools and Frameworks (Memory Infrastructure)](#-tools-and-frameworks-memory-infrastructure)
 
 
@@ -20,41 +17,23 @@ Traditional Artificial Intelligence (AI) focuses on maximizing information reten
 
 Resources detailing the biological and psychological mechanisms of memory consolidation and active forgetting.
 
-### Forgetting as an Active Process
+*   **[Book]** [Elizabeth A. Kensinger: Why We Forget and How to Remember Better: The Science Behind Memory](https://www.bc.edu/bc-web/bcnews/science-tech-and-health/psychology/the-science-behind-memory.html)
+    *   Memory is an active and cyclical process, analogous to building a structure out of blocks.
+    *   In this way, memory is a continually changing representation; it is not a static representation of the past.
 
-*   **[Paper] The Biology of Forgetting – A Perspective** 
-    *   *Focus:* Discusses active forgetting mechanisms, including neurogenesis-based forgetting, interference-based forgetting, and intrinsic forgetting.
-*   **[Article] Not a Flaw, But a Brain's Hidden Feature of Memory**
-    *   *Focus:* Explores how forgetting irrelevant memories fosters adaptability and better decision-making in shifting environments.
-*   **[Article] Why Forgetting is Good for Your Memory**
-    *   *Focus:* Explains the cognitive benefits of forgetting, such as prioritizing information, improving decision-making, and enhancing creativity.
-
-### Computational Neuroscience Models
-
-*   **[Paper] Computational model reveals how the brain manages short-term memories** 
-    *   *Focus:* A computational model showing how the brain maintains short-term information using specific types of neurons, suggesting a mechanism for selective retention.
-*   **[Paper] Forgetting Enhances Episodic Control With Structured Representations**
-    *   *Focus:* Computational study demonstrating that forgetting can benefit the performance of Reinforcement Learning (RL) agents by preventing over-reliance on outdated state information.
-*   **[Paper] Retroactive interference model of forgetting** 
-    *   *Focus:* Mathematical model proposing that memory can be erased due to subsequently acquired memories (retroactive interference), a key mechanism for active pruning.
-
-### Memory Consolidation and Trace
-
-*   **[Paper] The seven sins of memory: insights from psychology and cognitive neuroscience** 
-    *   *Focus:* A classic paper by Daniel Schacter that frames memory failures (including forgetting) as byproducts of otherwise adaptive features of memory.
 
 
 ## 🛠️ Tools and Frameworks (Memory Infrastructure)
 
 Tools that provide fine-grained control over memory, which is essential for implementing selective forgetting.
 
-| Project | Type | Short notes | Related Papers |
+| Project | Type | Short notes | Related Papers / Articles |
 |---|---|---|---|
 | [Mem0](https://github.com/mem0ai/mem0) | Memory layer / SDK | Self-improving memory layer, hosted + open-source, focuses on memory compression and structured fact extraction. | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) |
 | [Zep](https://github.com/getzep/zep) | Memory platform | Context engineering platform with structured memory (facts, entities) and metadata control. | |
 | [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | Memory OS / architecture | Layered memory architecture (STM/MTM/LPM), heat-score promotion, local-first privacy-focused design (compare/see article). | [Memory OS of AI Agent](https://arxiv.org/abs/2506.06326) |
 | [Letta](https://github.com/letta-ai/letta) | Virtual context / persona | Virtual context management and multi-agent memory patterns (referred to as Letta / MemGPT in the article). |  |
-| [LangChain Memory](https://github.com/langchain-ai/langchain) | Library / integration | Popular memory components for LangChain; useful when building LLM apps within the LangChain ecosystem. |  |
+| [LangChain Memory](https://github.com/langchain-ai/langchain) | Library / integration | Popular memory components for LangChain; useful when building LLM apps within the LangChain ecosystem. | [LangChain Memory overview](https://docs.langchain.com/oss/python/concepts/memory) |
 
 
 ## 🤝 Contributing
