@@ -17,10 +17,13 @@ Traditional Artificial Intelligence (AI) focuses on maximizing information reten
 
 Resources detailing the biological and psychological mechanisms of memory consolidation and active forgetting.
 
-*   **[Book]** [Elizabeth A. Kensinger: Why We Forget and How to Remember Better: The Science Behind Memory](https://www.bc.edu/bc-web/bcnews/science-tech-and-health/psychology/the-science-behind-memory.html)
+*   **[Book]** [Why We Forget and How to Remember Better: The Science Behind Memory (Elizabeth A. Kensinger 2023)](https://www.bc.edu/bc-web/bcnews/science-tech-and-health/psychology/the-science-behind-memory.html)
     *   Memory is an active and cyclical process, analogous to building a structure out of blocks.
     *   In this way, memory is a continually changing representation; it is not a static representation of the past.
 
+*   **[Paper]** [Replay-triggered brain-wide activation in humans (Huang, Q., Xiao, Z., Yu, Q. et al. 2024)](https://www.nature.com/articles/s41467-024-51582-5)
+    *   The consolidation of discrete experiences into a coherent narrative shapes the cognitive map, providing structured mental representations of our experiences.
+    *   ... our findings highlight a distributed, brain-wide engagement associated with transient memory reactivation and its sequential replay.
 
 
 ## 🛠️ Tools and Frameworks (Memory Infrastructure)
