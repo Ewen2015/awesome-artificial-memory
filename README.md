@@ -48,13 +48,13 @@ Resources detailing the biological and psychological mechanisms of memory consol
 
 Tools that provide fine-grained control over memory, which is essential for implementing selective forgetting.
 
-| Project | Type | Short notes |
-|---|---|---|
-| [Mem0](https://github.com/mem0ai/mem0) | Memory layer / SDK | Self-improving memory layer, hosted + open-source, focuses on memory compression and structured fact extraction. |
-| [Zep](https://github.com/getzep/zep) | Memory platform | Context engineering platform with structured memory (facts, entities) and metadata control. |
-| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | Memory OS / architecture | Layered memory architecture (STM/MTM/LPM), heat-score promotion, local-first privacy-focused design (compare/see article). |
-| [Letta](https://github.com/letta-ai/letta) | Virtual context / persona | Virtual context management and multi-agent memory patterns (referred to as Letta / MemGPT in the article). |
-| [LangChain Memory](https://github.com/langchain-ai/langchain) | Library / integration | Popular memory components for LangChain; useful when building LLM apps within the LangChain ecosystem. |
+| Project | Type | Short notes | Related Papers |
+|---|---|---|---|
+| [Mem0](https://github.com/mem0ai/mem0) | Memory layer / SDK | Self-improving memory layer, hosted + open-source, focuses on memory compression and structured fact extraction. | [Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/abs/2504.19413) |
+| [Zep](https://github.com/getzep/zep) | Memory platform | Context engineering platform with structured memory (facts, entities) and metadata control. | |
+| [MemoryOS](https://github.com/BAI-LAB/MemoryOS) | Memory OS / architecture | Layered memory architecture (STM/MTM/LPM), heat-score promotion, local-first privacy-focused design (compare/see article). | [Memory OS of AI Agent](https://arxiv.org/abs/2506.06326) |
+| [Letta](https://github.com/letta-ai/letta) | Virtual context / persona | Virtual context management and multi-agent memory patterns (referred to as Letta / MemGPT in the article). |  |
+| [LangChain Memory](https://github.com/langchain-ai/langchain) | Library / integration | Popular memory components for LangChain; useful when building LLM apps within the LangChain ecosystem. |  |
 
 
 ## 🤝 Contributing
