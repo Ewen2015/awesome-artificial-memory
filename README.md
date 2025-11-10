@@ -22,29 +22,29 @@ Resources detailing the biological and psychological mechanisms of memory consol
 
 ### Forgetting as an Active Process
 
-*   **[Paper] The Biology of Forgetting – A Perspective** [1]
+*   **[Paper] The Biology of Forgetting – A Perspective** 
     *   *Focus:* Discusses active forgetting mechanisms, including neurogenesis-based forgetting, interference-based forgetting, and intrinsic forgetting.
-*   **[Article] Not a Flaw, But a Brain's Hidden Feature of Memory** [2]
+*   **[Article] Not a Flaw, But a Brain's Hidden Feature of Memory**
     *   *Focus:* Explores how forgetting irrelevant memories fosters adaptability and better decision-making in shifting environments.
-*   **[Article] Why Forgetting is Good for Your Memory** [3]
+*   **[Article] Why Forgetting is Good for Your Memory**
     *   *Focus:* Explains the cognitive benefits of forgetting, such as prioritizing information, improving decision-making, and enhancing creativity.
 
 ### Computational Neuroscience Models
 
-*   **[Paper] Computational model reveals how the brain manages short-term memories** [11]
+*   **[Paper] Computational model reveals how the brain manages short-term memories** 
     *   *Focus:* A computational model showing how the brain maintains short-term information using specific types of neurons, suggesting a mechanism for selective retention.
-*   **[Paper] Forgetting Enhances Episodic Control With Structured Representations** [12]
+*   **[Paper] Forgetting Enhances Episodic Control With Structured Representations**
     *   *Focus:* Computational study demonstrating that forgetting can benefit the performance of Reinforcement Learning (RL) agents by preventing over-reliance on outdated state information.
-*   **[Paper] Retroactive interference model of forgetting** [13]
+*   **[Paper] Retroactive interference model of forgetting** 
     *   *Focus:* Mathematical model proposing that memory can be erased due to subsequently acquired memories (retroactive interference), a key mechanism for active pruning.
 
 ### Memory Consolidation and Trace
 
-*   **[Paper] The seven sins of memory: insights from psychology and cognitive neuroscience** [4]
+*   **[Paper] The seven sins of memory: insights from psychology and cognitive neuroscience** 
     *   *Focus:* A classic paper by Daniel Schacter that frames memory failures (including forgetting) as byproducts of otherwise adaptive features of memory.
 
 
-## 🛠️ Tools and Frameworks
+## 🛠️ Tools and Frameworks (Memory Infrastructure)
 
 Tools that provide fine-grained control over memory, which is essential for implementing selective forgetting.
 
