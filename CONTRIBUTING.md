@@ -1,29 +1,78 @@
 # Contributing to awesome-artificial-memory
 
-We welcome contributions to this curated list! Your help is essential in making this a comprehensive resource for the intersection of neuroscience, memory, and artificial intelligence.
+Contributions are welcome. This repository has two layers, and they have
+different standards.
 
-## Guidelines
+## 1. The curated list (`README.md`)
 
-Please follow these guidelines when submitting a pull request:
+The original collection. Keep it short and hand-checked.
 
-1.  **Scope:** Ensure the resource is directly relevant to **Artificial Memory (AM)**, the **Neuroscience of Forgetting**, or the application of forgetting mechanisms (like selective pruning, memory compression, or continual learning) in AI systems.
-2.  **Format:** Use the following Markdown format for all entries:
+1. **Scope.** The resource must bear directly on artificial memory, the
+   neuroscience of forgetting, or the engineering of forgetting in AI systems —
+   selective pruning, memory compression, consolidation, continual learning.
+2. **Format.**
     ```markdown
     *   **[Type] Title** [Source URL]
-        *   *Focus:* A brief, one-sentence description of the resource's main topic or relevance to Artificial Memory.
+        *   *Focus:* One sentence on what the resource argues or contributes.
     ```
-    *   **Type** should be one of: `[Paper]`, `[Article]`, `[Book]`, `[Tool]`, `[Project]`, `[Video]`.
-3.  **Categorization:** Place your entry under the most appropriate existing category in the `README.md`. If a new category is needed, please propose it in your pull request description.
-4.  **No Duplicates:** Check the existing list to ensure the resource is not already included.
-5.  **Quality:** Resources should be high-quality, authoritative, or highly relevant to the core concept of "forgetting as a feature."
+    **Type** is one of `[Paper]`, `[Article]`, `[Book]`, `[Tool]`, `[Project]`,
+    `[Video]`.
+3. **No duplicates.** Check the list and `research/sources.md` first.
+4. **Quality.** Authoritative or highly relevant. Prefer the primary source over
+   a write-up of it.
 
-## How to Submit
+## 2. The research library (`research/`)
 
-1.  Fork the repository.
-2.  Create a new branch for your changes (`git checkout -b add-resource-name`).
-3.  Edit `README.md` to add your resource(s) following the guidelines above.
-4.  Commit your changes (`git commit -m 'feat: Add resource on selective forgetting'`).
-5.  Push to your branch (`git push origin add-resource-name`).
-6.  Open a Pull Request to the main branch of the original repository.
+The eight documents are long-form and held to a higher bar.
 
-Thank you for contributing!
+**Every document exists twice.** `NAME.md` in English and `NAME.zh-CN.md` in
+Chinese. If you change a claim, change it in both. The versions are not
+sentence-by-sentence translations — the Chinese is written to read naturally in
+Chinese — but the claims, numbers and citations must match exactly.
+
+**Every factual claim carries a citation.** Journal entries give author, year,
+title, volume, issue and pages, with a DOI. AI papers give the arXiv ID. Product
+claims cite the vendor's own documentation, with the URL attached to the specific
+claim it supports — not dumped at the bottom. An uncited claim must be written as
+an argument, not as a finding.
+
+**Every document answers the same frame.** What is stored, what triggers a write,
+how it is indexed and retrieved, and what gets forgotten. A new section that does
+not engage one of these four usually belongs in an existing one.
+
+**Keep negative results.** If you add a benchmark number, add the ones that came
+out badly too. A library that only reports what worked is a sales document.
+
+**Date everything.** Each document carries a research date. If you substantially
+revise one, update it.
+
+**Corrections go to `research/sources-corrections.md`.** If you find a reference
+that is widely cited in the wrong form, add it there rather than quietly fixing
+it — the wrong form is what most readers will have.
+
+### Where things go
+
+- A new product comparison → `research/03-agent-native-memory.md`, plus the table
+  in `README.md` if it is one of the handful most people actually use.
+- A new paper → `research/04-research-architectures.md` or
+  `research/01-human-memory.md`, plus `research/sources.md`.
+- A storage or retrieval technique → `research/05-infrastructure.md`.
+- An attack or a defensive control → `research/06-security.md`.
+- Anything that changes the overall story → `research/00-timeline.md`, and check
+  that the other documents still agree with it.
+
+## How to submit
+
+1. Fork the repository.
+2. Create a branch: `git checkout -b add-resource-name`.
+3. Make the change, in both language versions if it touches `research/`.
+4. Commit: `git commit -m 'feat: Add resource on selective forgetting'`.
+5. Push and open a Pull Request against `main`.
+
+In the pull request description, say what the source is and — for research
+contributions — which of the four questions your change bears on.
+
+## Licence
+
+By contributing you agree your work is released under the repository's MIT
+licence.
