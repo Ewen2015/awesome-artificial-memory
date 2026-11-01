@@ -1,8 +1,8 @@
 # Research notes
 
-Working notes for the `research/` library. The documents themselves are in
-[`research/`](research/README.md); this file records how they were built, what
-was dropped, and what is still open.
+Working notes for this library. The documents themselves are the numbered files
+in the repository root; this file records how they were built, what was dropped,
+and what is still open.
 
 **Last full pass:** 2026-11-01
 
@@ -25,7 +25,7 @@ claims rather than the reverse.
 Product claims were read from each vendor's own documentation on the research
 date. Where a vendor's documentation could not be retrieved, the product was
 dropped rather than reconstructed from third-party coverage — see the appendix at
-the end of [research/03-agent-native-memory.md](research/03-agent-native-memory.md).
+the end of [03-agent-native-memory.md](03-agent-native-memory.md).
 
 ## What was dropped, and why
 
@@ -45,8 +45,8 @@ latency and recall numbers. Those numbers are not stable enough to publish witho
 benchmarking them ourselves, and this repository does not run benchmarks.
 
 **2026 benchmark numbers are single-source.** Every 2026 figure in
-[research/04-research-architectures.md](research/04-research-architectures.md) and
-[research/06-security.md](research/06-security.md) is the authors' own reported
+[04-research-architectures.md](04-research-architectures.md) and
+[06-security.md](06-security.md) is the authors' own reported
 number, not an independent replication. They are labelled as such in the text, and
 they should be read as evidence that a failure mode exists rather than as
 measurements of its size.
@@ -63,7 +63,7 @@ product claim, and are the parts written to survive.
    accumulates episodes and retrieves them. None converts repeated episodes into a
    procedure that no longer needs the episodes. Whether this is an architectural
    limit of retrieval-based memory or simply nobody has built it is the single
-   most important open question in this library. [02](research/02-cognitive-architectures.md)
+   most important open question in this library. [02](02-cognitive-architectures.md)
    argues the former; nothing yet disproves it.
 
 2. **What is the right unit of forgetting?** Systems forget at the level of a
@@ -75,7 +75,7 @@ product claim, and are the parts written to survive.
 
 3. **Is provenance sufficient for truth?** Provenance tells you where a memory came
    from; citation checking tells you the evidence still exists. Neither tells you
-   whether a memory that passes both is *false*. [06](research/06-security.md) ends
+   whether a memory that passes both is *false*. [06](06-security.md) ends
    on this; it may be that this is not a memory problem at all.
 
 4. **What happens at ten years?** Every longitudinal claim in this library is about

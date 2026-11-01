@@ -5,7 +5,7 @@
 This document is the bird's-eye view. It answers one question: *how did we get
 from "memory is a store" to "memory is a decision about what to keep"?*
 
-Read it first. Everything else in `research/` is an expansion of one period in
+Read it first. Every other document here is an expansion of one period in
 this timeline.
 
 ---

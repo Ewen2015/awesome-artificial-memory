@@ -156,4 +156,4 @@ page are the most useful kind of contribution the repository can receive.
 
 ---
 
-*Back to [sources.md](sources.md) · [README.md](README.md)*
+*Back to [sources.md](sources.md) · [README.md](README.md) · 中文：[sources-corrections.zh-CN.md](sources-corrections.zh-CN.md)*
